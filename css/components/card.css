@@ -16,6 +16,7 @@
   border-radius: 1000px;
   width: 85%;
   margin: 0 auto;
+  border: lightgrey solid 2px;
 }
 
 .card {
