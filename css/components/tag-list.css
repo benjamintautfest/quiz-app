@@ -1,0 +1,16 @@
+.tag-list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-position: outside;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}

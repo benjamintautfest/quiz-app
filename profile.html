@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -11,11 +15,10 @@
       <h1>Profile</h1>
     </header>
     <main class="scrolling card-grid">
-      <img src="images/ben.jpg" alt="" class="profile__img" />
-      <!--Inline style, muss raus, geht gar nicht-->
-      <caption>
-        Max Mustermann
-      </caption>
+      <div class="profile-card">
+        <img src="images/ben.jpg" alt="" class="profile__img" />
+        <h2 class="profil-card__name">Benjamin Tautfest</h2>
+      </div>
       <p class="lh-15">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro tempore
         unde illum nihil vitae pariatur ullam hic, quibusdam itaque quis
@@ -23,20 +26,29 @@
         nostrum.
       </p>
       <h2>Tags about skills</h2>
-      <ul>
+      <ul class="tag-list">
+        <li>lorem</li>
+        <li>lorem</li>
+        <li>lorem</li>
         <li>lorem</li>
         <li>lorem</li>
         <li>lorem</li>
         <li>lorem</li>
       </ul>
-      <button>Logout</button>
+      <button class="btn">Logout</button>
     </main>
     <nav class="nav">
-      <a class="center" href="bookmark.html">Bookmark</a>
-      <a class="center" href="profile.html">Profile</a>
-      <a class="center" href="index.html">Home</a>
-      <a class="center" href="create.html"
+      <a class="center" href="index.html"
         ><img src="images/home.svg" alt="home" class="home"
+      /></a>
+      <a class="center" href="bookmark.html"
+        ><img src="images/bookmark.svg" class="home" alt="bookmark"
+      /></a>
+      <a class="center" href="profile.html"
+        ><img src="images/profile.svg" class="home" alt="bookmark"
+      /></a>
+      <a class="center" href="create.html"
+        ><img src="images/create.svg" class="home" alt="create"
       /></a>
     </nav>
   </body>

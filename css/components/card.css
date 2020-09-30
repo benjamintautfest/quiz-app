@@ -1,5 +1,37 @@
+.profile-card {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+}
+
+.profil-card__name {
+  color: white;
+  background: #fc6f03;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
 .profile__img {
   border-radius: 1000px;
-  width: 50%;
+  width: 85%;
   margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border-radius: 5px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.card__title {
+  color: #fc6f03;
+}
+
+.card__icon {
+  position: absolute;
+  transform: scale(2);
+  top: -3px;
+  right: 10px;
 }

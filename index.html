@@ -4,20 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <header class="header center">
       <h1>Quiz till you die</h1>
     </header>
-    <main>
-      <img src="images/logo.png" alt="" />
+    <main class="scrolling card-grid">
+      <section class="card mgn-bottom-20">
+        <img src="images/bookmark.svg" alt="" class="home card__icon" />
+        <h2 class="card__title">Question</h2>
+        <p class="lh-15">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odit
+          ad quidem voluptates, harum illum placeat deleniti.
+        </p>
+        <button class="btn">Show Answer</button>
+        <ul class="tag-list">
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <img src="images/bookmark.svg" alt="" class="home card__icon" />
+        <h2 class="card__title">Question</h2>
+        <p class="lh-15">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odit
+          ad quidem voluptates, harum illum placeat deleniti, dignissimos.
+        </p>
+        <button class="btn">Show Answer</button>
+        <ul class="tag-list">
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+        </ul>
+      </section>
     </main>
     <nav class="nav">
-      <a class="center" href="create.html">Create</a>
-      <a class="center" href="bookmark.html">Bookmark</a>
-      <a class="center" href="profile.html">Profile</a>
-      <a class="center" href="index.html">Home</a>
+      <a class="center" href="index.html"
+        ><img src="images/home.svg" alt="home" class="home"
+      /></a>
+      <a class="center" href="bookmark.html"
+        ><img src="images/bookmark.svg" class="home" alt="bookmark"
+      /></a>
+      <a class="center" href="profile.html"
+        ><img src="images/profile.svg" class="home" alt="bookmark"
+      /></a>
+      <a class="center" href="create.html"
+        ><img src="images/create.svg" class="home" alt="create"
+      /></a>
     </nav>
   </body>
 </html>
