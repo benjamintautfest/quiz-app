@@ -1,14 +1,15 @@
 .profile-card {
   display: grid;
+  padding-top: 10px;
   align-items: center;
   grid-template-columns: 1fr 2fr;
 }
 
 .profil-card__name {
   color: white;
-  padding: 10px;
   border-radius: 20px;
   text-align: center;
+  line-height: 1.2;
 }
 
 .profile__img {
