@@ -55,12 +55,6 @@ h2 {
   padding: 20px;
 }
 
-.nav {
-  display: grid;
-  grid-auto-flow: column;
-  background: black;
-}
-
 textarea {
   display: block;
   width: 100%;
