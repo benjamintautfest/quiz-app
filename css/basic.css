@@ -31,37 +31,3 @@ h2 {
   color: white;
   font-weight: 300;
 }
-
-.header {
-  position: relative;
-  background: black;
-  color: white;
-  width: 100vw;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.scrolling {
-  overflow-y: scroll;
-}
-
-.card-grid {
-  display: grid;
-  align-content: start;
-  padding: 20px;
-}
-
-textarea {
-  display: block;
-  width: 100%;
-}
-
-.teaser-pic {
-  width: 60%;
-  display: block;
-  margin: 0 auto;
-}

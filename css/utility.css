@@ -34,3 +34,13 @@
 .red-text {
   color: darkorange;
 }
+
+.scrolling {
+  overflow-y: scroll;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

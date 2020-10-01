@@ -1,1 +1,12 @@
+.header {
+  position: relative;
+  background: black;
+  color: white;
+  width: 100vw;
+}
 
+.teaser-pic {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
