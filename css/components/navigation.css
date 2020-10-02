@@ -1,7 +1,7 @@
 .nav {
   display: grid;
   grid-auto-flow: column;
-  background: black;
+  background: maroon;
 }
 
 .nav__icon {
